@@ -84,13 +84,13 @@
 - type: entity
   parent: ClothingModsuitRogue
   id: ClothingModsuitRoguePowerCell
-  suffix: High-Capacity Battery
+  suffix: Combat Battery
   components:
   - type: ItemSlots
     slots:
       cell_slot:
         name: power-cell-slot-component-slot-name-default
-        startingItem: PowerCellHigh
+        startingItem: PowerCellCombat
         whitelist:
           components:
             - PowerCell
